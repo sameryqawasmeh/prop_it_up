@@ -2,23 +2,13 @@ import './App.css';
 import PersonCard from './components/PersonCard';
 function App() {
   return (
+    
     <div className="App">
-      <PersonCard firstName={"Samer"}lastName={"Qawasmeh"}/>
-      <PersonCard age={"Age 35"}/>
-      <PersonCard hairColor={"hair color: Black"}/>
-      
+      <PersonCard firstName={"Samer"}lastName={"Qawasmeh"} age={35} hairColor={"hair color: Black"}/>
 
+      <PersonCard firstName={"Jane"}lastName={"Doe"}age={30}hairColor={"hair color: brown"}/>
 
-      <PersonCard firstName={"samar"}lastName={"Qawasmeh"}/>
-      <PersonCard age={"Age 30"}/>
-      <PersonCard hairColor={"hair color: brown"}/>
-
-
-
-
-      <PersonCard firstName={"sondos"}lastName={"Qawasmeh"}/>
-      <PersonCard age={"Age 20"}/>
-      <PersonCard hairColor={"hair color: bronze"}/>
+      <PersonCard firstName={"John"}lastName={"Smith"} age={20}hairColor={"hair color: bronze"}/>
 </div>
     
     
